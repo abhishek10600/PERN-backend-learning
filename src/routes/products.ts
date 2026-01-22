@@ -25,6 +25,8 @@ const updateProductSchema = z.object({
 });
 
 // creating validation schema using the table schema using drizzle-zod (only for learning)
+
+// drizzle-zod is required only if we use this.
 // import { createInsertSchema, createSelectSchema } from "drizzle-zod";
 // import { productsTable } from "../db/productsSchema";
 // import { z } from "zod";
