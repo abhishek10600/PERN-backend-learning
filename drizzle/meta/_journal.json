@@ -15,6 +15,13 @@
       "when": 1768906734517,
       "tag": "0001_many_scalphunter",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1768906985503,
+      "tag": "0002_majestic_vampiro",
+      "breakpoints": true
     }
   ]
 }
