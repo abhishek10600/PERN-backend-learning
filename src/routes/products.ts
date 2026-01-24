@@ -11,6 +11,7 @@ import { validateData } from "../middlewares/validationMiddleware";
 // *******This is the best approach*******
 // we can create validation using zod.
 import { z } from "zod";
+import { verifyUser, verifySeller } from "../middlewares/authMiddleware";
 
 const createProductSchema = z.object({
   name: z.string(),
@@ -41,7 +42,13 @@ const router = Router();
 
 router.get("/", listProducts);
 router.get("/:id", getProductById);
-router.post("/", validateData(createProductSchema), createProduct);
+router.post(
+  "/",
+  validateData(createProductSchema),
+  verifyUser,
+  verifySeller,
+  createProduct,
+);
 router.put("/:id", validateData(updateProductSchema), updateProduct);
 router.delete("/:id", deleteProduct);
 export default router;

@@ -22,6 +22,27 @@
       "when": 1768906985503,
       "tag": "0002_majestic_vampiro",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1769246581163,
+      "tag": "0003_orange_machine_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1769249292965,
+      "tag": "0004_cynical_supreme_intelligence",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1769253616949,
+      "tag": "0005_curvy_felicia_hardy",
+      "breakpoints": true
     }
   ]
 }
